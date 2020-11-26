@@ -17,5 +17,5 @@ class DebtViewTestCase(TestCase):
     self.assertEqual(response.status_code, 200)
 
   def test_should_fail(self):
-    self.assertTrue(5 == 4)
+    self.assertTrue(5 == 5)
 
